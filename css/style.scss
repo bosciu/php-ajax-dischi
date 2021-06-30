@@ -4,12 +4,62 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    margin: 5px 0;
+}
+
+h2 {
+    color: white;
+}
+
+h3,
+h4 {
+    color: grey;
+}
+
 header {
-    height: 100px;
+    height: 10%;
     background-color: lightcoral;
 }
 
+main {
+    display: flex;
+    height: 80%;
+    background-color: #1e2d3b;
+    .container {
+        width: 80%;
+        margin: auto;
+        &::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .card {
+            float: left;
+            padding: 20px;
+            width: calc(100% / 5 - 60px);
+            min-height: 330px;
+            margin: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #2e3a46;
+            text-align: center;
+            img {
+                width: 75%;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
 footer {
-    height: 100px;
+    height: 10%;
     background-color: lightgreen;
 }
