@@ -15,12 +15,13 @@
     <title>Spotify albums</title>
 </head>
 <body>
+
     <?php require __DIR__ . "/container/header.php" ?>
         <main>
             <div class="container">
                 <?php foreach ($albums as $album){?>
                     <div class="card">
-                        <img src="<?= $album['poster'] ?>" alt="">
+                        <img src="<?= $album['poster'] ?>" alt="<?= $album['title'] ?>">
                         <h2><?= $album["title"] ?></h2>
                         <h3><?= $album["author"] ?></h3>
                         <h4><?= $album["year"] ?></h4>
@@ -29,5 +30,6 @@
             </div>
         </main>
     <?php require __DIR__ . "/container/footer.php" ?>
+
 </body>
 </html>

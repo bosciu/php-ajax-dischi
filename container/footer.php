@@ -1,3 +1,3 @@
 <footer>
-    <h1>Footer</h1>
+    <small>Made with <span>&hearts;</span> by Gianni Bertolini</small>
 </footer>

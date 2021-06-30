@@ -60,6 +60,15 @@ main {
 }
 
 footer {
+    display: flex;
     height: 10%;
-    background-color: lightgreen;
+    background-color: #1e2d3b;
+    small {
+        font-size: 14px;
+        margin: auto auto;
+        color: white;
+        span {
+            color: red;
+        }
+    }
 }
