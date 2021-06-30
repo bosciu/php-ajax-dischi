@@ -27,7 +27,12 @@ h4 {
 
 header {
   height: 10%;
-  background-color: lightcoral;
+  background-color: #2e3a46;
+  padding: 20px;
+}
+
+header img {
+  height: 100%;
 }
 
 main {
@@ -59,6 +64,7 @@ main .container .card {
   border-radius: 8px;
   background-color: #2e3a46;
   text-align: center;
+  cursor: pointer;
 }
 
 main .container .card img {

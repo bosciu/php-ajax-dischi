@@ -1,3 +1,3 @@
 <header>
-    <h1>Header</h1>
+    <img src="assets/img/logo.png" alt="Spotify logo">
 </header>
