@@ -1,0 +1,17 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  background-color: lightcoral;
+}
+
+footer {
+  height: 100px;
+  background-color: lightgreen;
+}
+/*# sourceMappingURL=style.css.map */
